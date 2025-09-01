@@ -1,6 +1,10 @@
+com/videoinsight/backend/controller/VideoController.class
 com/videoinsight/backend/controller/TranscriptController.class
 com/videoinsight/backend/config/WebConfig.class
 com/videoinsight/backend/model/TranscriptResponse.class
+com/videoinsight/backend/model/VideoRequest.class
 com/videoinsight/backend/service/TranscriptService.class
+com/videoinsight/backend/service/VideoService.class
 com/videoinsight/backend/VideoInsightBackendApplication.class
 com/videoinsight/backend/service/TranscriptServiceImpl.class
+com/videoinsight/backend/model/VideoSummaryResponse.class

@@ -78,6 +78,20 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-youtube -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-youtube</artifactId>
+            <version>v3-rev222-1.25.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.theokanning.openai-gpt3-java -->
+        <dependency>
+            <groupId>com.theokanning.openai-gpt3-java</groupId>
+            <artifactId>service</artifactId>
+            <version>0.11.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

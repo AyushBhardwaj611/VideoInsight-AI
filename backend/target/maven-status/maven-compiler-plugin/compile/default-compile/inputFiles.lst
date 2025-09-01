@@ -1,6 +1,10 @@
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/model/TranscriptResponse.java
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/VideoInsightBackendApplication.java
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/service/TranscriptServiceImpl.java
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/config/WebConfig.java
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/controller/TranscriptController.java
-/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/service/TranscriptService.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/service/TranscriptService.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/controller/VideoController.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/service/VideoService.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/VideoInsightBackendApplication.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/model/VideoRequest.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/model/TranscriptResponse.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/config/WebConfig.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/model/VideoSummaryResponse.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/controller/TranscriptController.java
+/Users/ayushbhardwaj/VideoInsight-AI/VideoInsight-AI/VideoInsight-AI/backend/src/main/java/com/videoinsight/backend/service/TranscriptServiceImpl.java

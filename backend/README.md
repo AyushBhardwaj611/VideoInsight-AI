@@ -1,15 +1,3 @@
-# VideoInsight AI Backend
-
-A Spring Boot backend application for the VideoInsight AI project.
-
-## Prerequisites
-
-- Java 17 or higher
-- Maven 3.6 or higher
-
-## Project Structure
-
-```
 src/
 ├── main/
 │   ├── java/
@@ -29,35 +17,45 @@ src/
             └── videoinsight/
                 └── backend/
 ```
+# VideoInsight AI Backend
 
-## Running the Application
+Spring Boot backend for VideoInsight-AI. Handles YouTube transcript fetching and summary generation using OpenAI.
 
-### Using Maven
+## Prerequisites
+- Java 17 or higher
+- Maven 3.6 or higher
+
+## Setup & Run
 ```bash
-# Navigate to the backend directory
 cd backend
-
-# Clean and compile
-mvn clean compile
-
-# Run the application
+mvn clean install
 mvn spring-boot:run
 ```
+Configure your OpenAI API key in `src/main/resources/application.properties`:
+```
+OPENAI_API_KEY=sk-...
+```
 
-### Using IDE
-Run the `VideoInsightBackendApplication.java` class directly from your IDE.
+## Key Endpoints
 
-## Application Endpoints
+- `GET    /api/transcript/{videoId}` — Fetch YouTube transcript (mocked for MVP)
+- `POST   /api/summarizeVideo` — Generate summary from YouTube video (requires `{ url, title, transcript }`)
 
-- **Health Check**: `GET http://localhost:8080/api/health`
-- **H2 Console**: `http://localhost:8080/api/h2-console`
+## Example Request
 
-## Configuration
+POST `/api/summarizeVideo`
+```json
+{
+    "url": "https://www.youtube.com/watch?v=...",
+    "title": "My Video",
+    "transcript": "...transcript text..."
+}
+```
 
-The application is configured to run on:
-- **Port**: 8080
-- **Context Path**: `/api`
-- **Database**: H2 in-memory database (for development)
+## Notes
+- Uses H2 in-memory DB for development
+- All config in `application.properties`
+- See root README for full-stack usage
 
 ## Dependencies
 
